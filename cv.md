@@ -1,7 +1,134 @@
-<h4>Serhii Babych</h4>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles.css">
+ <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-Contacts
-Germany, Erfurt
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+}
 
-Tel 
-Email
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.avatar {
+    display: block;
+    max-width: 150px;
+    margin: 1em auto;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 1em 0;
+}
+
+footer p, footer a {
+    margin: 0.5em 0;
+}
+
+footer img {
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Serhii Babych</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a web developer with a passion for creating dynamic and responsive websites. I have experience in HTML, CSS, and JavaScript.</p>
+            <img src="avatar.jpg" alt="Serhii" class="avatar">
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: serhii@example.com</li>
+                <li>Phone: 123-456-7890</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/serhii/">SerhiiBabych</a></li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Project 1</a> - A web application built with React.</li>
+                <li><a href="#">Project 2</a> - A Node.js REST API.</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>BSc in Computer Science, Kyiv University</li>
+                <li>English Level: Advanced</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Serhii Babych</p>
+        <a href="https://github.com/SerhiiBabych">GitHub</a>
+        <a href="https://rs.school/courses/javascript-ru">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="Course Logo">
+        </a>
+    </footer>
+</body>
+</html>
