@@ -4,7 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://serhiibabych.github.io/rsschool-cv/cv/style.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.avatar {
+    display: block;
+    max-width: 150px;
+    margin: 1em auto;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 1em 0;
+}
+
+footer p, footer a {
+    margin: 0.5em 0;
+}
+
+footer img {
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+
+    </style>
 </head>
 <body>
     <header>
@@ -20,10 +86,19 @@
         </nav>
     </header>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a web developer with a passion for creating dynamic and responsive websites. I have experience in HTML, CSS, and JavaScript.</p>
-            <img src="avatar.jpg" alt="Serhii" class="avatar">
+
+        <section id="about" style="display: flex; flex-direction: row; align-items:center">
+
+            <div style="margin-right: 50px; align-items: center">
+                <img src="/img/foto.jpg" alt="Serhii" class="avatar">
+            </div>
+
+            <div align-items:center;>
+                <h2>About Me</h2>
+                <p>I am a web developer with a passion for creating dynamic and responsive websites. I have experience in HTML, CSS, and JavaScript.</p>
+            </div>
+
+
         </section>
         <section id="contact">
             <h2>Contact</h2>
@@ -62,7 +137,7 @@
         <p>&copy; 2024 Serhii Babych</p>
         <a href="https://github.com/SerhiiBabych">GitHub</a>
         <a href="https://rs.school/courses/javascript-ru">
-            <img src="https://rs.school/images/rs_school_js.svg" alt="Course Logo">
+            <img src="/img/rs.png" alt="Course Logo">
         </a>
     </footer>
 </body>
