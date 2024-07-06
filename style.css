@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    text-decoration:none;
 }
 
 header {
@@ -62,6 +63,6 @@ footer img {
 }
 
 #contact, #projects {
-    text-decoration:none:
+    text-decoration:none;
 }
 
