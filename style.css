@@ -63,9 +63,9 @@ footer img {
 }
 
 a {
-    text-decoration:none;
-    color:green;
+    text-decoration:none!important;
+    color:green!important;
 }
 a:hoover {
-    color:red;
+    color:red!important;
 }
