@@ -43,7 +43,7 @@ section {
 
 .avatar, .about {
     display: block;
-    max-width: 100%;
+    max-width: 650px;
     margin: 1em auto;
     border-radius: 50%;
     align-items:center;
